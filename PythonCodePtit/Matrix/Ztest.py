@@ -1,0 +1,19 @@
+# row, col = map(int, input().split())
+# a = [[int(x) for x in input().split()] for _ in range(row)]
+# tmp = 0 if row > col else 1
+# pos = []
+# for _ in range(abs(row - col)):
+#     pos.append(tmp)
+#     tmp += 2
+# print(pos)
+# for r in range(row):
+#     print(r)
+#     if (row > col and r not in pos) or row == col:
+#         print(*a[r])
+#     elif row < col:
+#         for c in range(col):
+#             if c not in pos: print(a[r][c], end=' ')
+#         print()
+n = int(input())
+arr2d = [[int(j) for j in input().split()] for i in range(n)]
+print(arr2d)

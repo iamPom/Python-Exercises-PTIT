@@ -1,0 +1,5 @@
+t = int(input())
+for i in range(t):
+    s = input()
+    a = input()
+    print(s.count(a))
